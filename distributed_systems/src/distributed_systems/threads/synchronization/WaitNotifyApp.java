@@ -1,4 +1,4 @@
-package distributed_systems.synchronization;
+package distributed_systems.threads.synchronization;
 
 class Processor {
 

@@ -1,4 +1,4 @@
-package distributed_systems.coordination;
+package distributed_systems.threads.start_threads;
 
 class Mythread1 extends Thread{
 
@@ -12,6 +12,7 @@ class Mythread1 extends Thread{
 			}
 		}
 	}
+	
 }
 
 
@@ -27,9 +28,10 @@ class Mythread2 extends Thread{
 			}
 		}
 	}
+	
 }
 
-public class JoinApp {
+public class ThreadApp {
 
 	public static void main(String[] args) {
 		Mythread1 t1 = new Mythread1();
@@ -37,13 +39,7 @@ public class JoinApp {
 		
 		t1.start();
 		t2.start();
-		
-		try {
-			//Wait for threads to die
-			t1.join();
-			t2.join();
-		} catch (InterruptedException e) {}
-		
-		System.out.println("The end");
+
 	}
+
 }

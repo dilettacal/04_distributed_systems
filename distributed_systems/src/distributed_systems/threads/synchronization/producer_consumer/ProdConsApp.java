@@ -1,4 +1,4 @@
-package distributed_systems.synchronization.producer_consumer;
+package distributed_systems.threads.synchronization.producer_consumer;
 
 import java.util.ArrayList;
 import java.util.List;

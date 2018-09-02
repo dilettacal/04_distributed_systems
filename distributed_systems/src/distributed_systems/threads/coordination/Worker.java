@@ -1,4 +1,4 @@
-package distributed_systems.coordination;
+package distributed_systems.threads.coordination;
 
 import java.time.LocalTime;
 

@@ -1,4 +1,4 @@
-package distributed_systems.start_threads;
+package distributed_systems.threads.start_threads;
 
 class MyRunner1 implements Runnable{
 
